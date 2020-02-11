@@ -25,7 +25,7 @@ public class Space extends World
         addObject(rocket, getWidth()/2 + 100, getHeight()/2);
         
         addAsteroids(startAsteroids);
-        paintStars(300);
+        paintStars(1000);
         
         scoreCounter = new Counter("Score: ");
         addObject(scoreCounter, 60, 480);
